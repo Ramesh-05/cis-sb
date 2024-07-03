@@ -19,7 +19,7 @@ import com.orchasp.contactInformationSystem.entity.Card;
 import com.orchasp.contactInformationSystem.service.CardServiceImpl;
 import com.orchasp.contactInformationSystem.util.ResponseStructure;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cisorchasp-sepia.vercel.app")
 @RequestMapping("/card")
 @RestController
 public class CardController {

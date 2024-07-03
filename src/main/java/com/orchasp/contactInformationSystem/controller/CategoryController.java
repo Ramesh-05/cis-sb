@@ -19,7 +19,7 @@ import com.orchasp.contactInformationSystem.entity.Categories;
 import com.orchasp.contactInformationSystem.service.CategoryServiceImpl;
 import com.orchasp.contactInformationSystem.util.ResponseStructure;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cisorchasp-sepia.vercel.app")
 @RequestMapping("/category")
 @RestController
 public class CategoryController {

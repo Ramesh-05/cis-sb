@@ -21,7 +21,7 @@ import com.orchasp.contactInformationSystem.entity.Admin;
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cisorchasp-sepia.vercel.app")
 public class AdminController {
 	@Autowired
 	private AdminDao adminDao;

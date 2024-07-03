@@ -24,7 +24,7 @@ import com.orchasp.contactInformationSystem.entity.Users;
 import com.orchasp.contactInformationSystem.service.UserServiceImpl;
 import com.orchasp.contactInformationSystem.util.ResponseStructure;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cisorchasp-sepia.vercel.app")
 @RequestMapping("/user")
 @RestController
 public class UserController {

@@ -19,7 +19,7 @@ import com.orchasp.contactInformationSystem.entity.Organization;
 import com.orchasp.contactInformationSystem.service.OrgServiceImpl;
 import com.orchasp.contactInformationSystem.util.ResponseStructure;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cisorchasp-sepia.vercel.app")
 @RequestMapping("/organization")
 @RestController
 public class OrgController {
